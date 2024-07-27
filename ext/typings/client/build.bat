@@ -9,6 +9,7 @@ set ROOT=%CD%
 cd %~dp0
 
 copy /y %ROOT%\caches\fivereborn\citizen\scripting\v8\natives_universal.d.ts natives_universal.d.ts
+copy /y %ROOT%\caches\fivereborn\citizen\scripting\v8\client_types.d.ts client_types.d.ts
 copy /y %ROOT%\caches\fivereborn\citizen\scripting\v8\index.d.ts index.d.ts
 
 echo //registry.npmjs.org/:_authToken=%NPM_TOKEN% > .npmrc
